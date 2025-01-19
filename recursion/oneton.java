@@ -1,6 +1,5 @@
 package recursion;
 
-import java.util.*;
 
 public class oneton {
     public static void print(int i,int n){
