@@ -3,7 +3,7 @@ package maths;
 import java.util.Scanner;
 
 public class counter {
-    
+
     public static int counting(int n){
         int count=0;
         while(n>0){
@@ -18,5 +18,6 @@ public class counter {
 
         int result=counting(n);
         System.out.println(result);
+        sc.close();
     }
 }
