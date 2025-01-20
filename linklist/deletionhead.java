@@ -16,7 +16,6 @@ class Node{
 
 public class deletionhead {
 
-
     private static Node arraytoLL(int arr[]){
         Node head = new Node(arr[0]);
         Node mover = head;
