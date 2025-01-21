@@ -15,8 +15,15 @@ class Node{
 };
 
 
-public class arrtoLL {
-    private static Node arraytoLL(int arr[]){
+public class arraytoLL {
+    private static void print(Node head){
+        Node temp =head;
+        while(temp!=head){
+            System.out.print(temp.data+" ");
+            temp=temp.next;
+        }
+    }
+    private static Node arrartoLL(int arr[]){
         Node head = new Node(arr[0]);
         Node mover = head;
         for(int i=1;i<arr.length;i++){
@@ -28,8 +35,8 @@ public class arrtoLL {
     }
     public static void main(String[] args) {
         int arr[]={3,5,6,3};
-        Node head= arraytoLL(arr);
-        System.out.println(head.data);
+        Node head=arrartoLL(arr);
+        print(head);
     }
     
 }

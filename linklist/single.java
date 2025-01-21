@@ -1,5 +1,5 @@
 package linklist;
-
+//single linkedlist
 class Node{
     int data;
     Node next;
