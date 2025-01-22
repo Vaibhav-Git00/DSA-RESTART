@@ -13,10 +13,14 @@ public class subsequences {
             System.out.println();
             return ;
         }
+
+        //this is take
         v.add(arr[indx]);
         subseee(arr, indx+1,v); 
          v.remove(v.size()-1);
 
+
+         //this is non- take 
         subseee(arr, indx+1,v);
 
 
