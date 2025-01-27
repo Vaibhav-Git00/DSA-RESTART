@@ -99,10 +99,27 @@ public class insertDll {
         node.back=newnode;
         return ;
     }
+
+
+
+    //insert node after the head
+    private static Node insertafterhead(Node head,int el ){
+
+        Node newnode = new Node(el);
+        if(head!=null){
+            newnode.next=head.next;
+            head.next=newnode;
+
+        }else{
+            head=newnode;
+        }
+        return head ;
+        
+    }
     public static void main(String[] args) {
         int arr[]={1,2,3};
         Node head=arraytoDLL(arr);
-        inserthead(head.next, 3);
+        insertafterhead(head, 3);
         print(head);
         
     }
