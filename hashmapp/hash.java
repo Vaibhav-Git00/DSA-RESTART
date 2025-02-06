@@ -12,4 +12,4 @@ public class hash {
         System.out.println(hash[ch-'a']);
     }
 }
-//
+//jj
