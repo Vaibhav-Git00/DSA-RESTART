@@ -30,15 +30,15 @@ public class hash {
         //similarly isme hashset bhi ata hai isme duplicate key ko remove krdiya jata hai 
 
         HashSet<Integer> st= new HashSet<>();
-        st.add(59);
-        st.add(59);
-        st.add(59);
-        st.add(34);
+        st.add(3);
+        st.add(6);
+        st.add(9);
+        st.add(12);
+        st.add(12);
         System.out.println(st);
 
 
         //similarly treemap hamra sorted order hota hai 
-        
 
 
 
