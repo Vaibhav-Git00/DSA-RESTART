@@ -23,7 +23,7 @@ class Node {
         arr.add(root.data);  // Root added at the end
     }
 
-    // Returns the postorder traversal as a list
+    // Returns the postorder traversal as a list 
     static List<Integer> postorder(Node root) {
         List<Integer> arr = new ArrayList<>();
         postorder(root, arr);
@@ -49,6 +49,7 @@ public class PostorderTraversal {  // Renamed class to follow naming convention
         System.out.println();
     }
 }
+//
 
 
 
