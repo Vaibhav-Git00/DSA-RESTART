@@ -83,10 +83,8 @@ public class inserthead {
             temp =temp.next;
         }
         return head;
+
     }
-
-
-
     //insert element before the value of n
     private static Node insertelbefore(Node head,int el,int val){
         if(head == null){
